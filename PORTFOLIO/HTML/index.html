@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media For Christ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000; /* Fallback color */
+            background-image: url('back1.png'); /* Path to your background image */
+            background-size: cover; /* Makes the image cover the whole screen */
+            background-position: center; /* Centers the background image */
+            background-repeat: no-repeat; /* Ensures the background image doesn't repeat */
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace; /* Monospace font */
+        }
+
+        /* Header Styles */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #111;
+            border-bottom: 1px solid #39ff14;
+            box-shadow: 0px 0px 20px 10px #39ff14;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+            color: #fff; /* White text */
+            text-shadow: 0px 0px 15px #39ff14; /* Neon green glow */
+        }
+
+        /* Navigation Styles */
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff; /* White text */
+            text-decoration: none;
+            padding: 10px 15px;
+            border: 2px solid transparent;
+            transition: 0.3s;
+            text-shadow: 0px 0px 15px #abed9f; /* Neon green glow */
+        }
+
+        nav ul li a:hover {
+            border: 2px solid #abed9f;
+            box-shadow: 0px 0px 15px 5px #abed9f;
+        }
+
+        /* Image Container */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 0;
+            width: 100%; /* Full-width container */
+            height: auto; /* Height adjusts based on content */
+            padding: 20px; /* Adds padding around the image */
+        }
+
+        /* Image Style and Hover Effect */
+        .image-container img {
+            width: 500px; /* Makes the image larger */
+            height: auto; /* Keeps the aspect ratio */
+            border: 5px solid #abed9f; /* Slightly thicker border for emphasis */
+            box-shadow: 0px 0px 30px 10px #abed9f;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-container img:hover {
+            transform: translateY(-20px) scale(1.05); /* Floats image and slightly scales it */
+            box-shadow: 0px 0px 50px 20px #abed9f; /* More intense glow on hover */
+        }
+
+        /* Content Styles */
+        .content-container {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            border: 2px solid #abed9f;
+            box-shadow: 0px 0px 20px 10px #abed9f;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 24px; /* Font size for headings */
+            color: #fff; /* White text */
+            text-shadow: 0px 0px 10px #abed9f; /* Neon green glow */
+            text-align: left; /* Align headings to the left */
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 40px; /* Font size for headings */
+            color: #fff; /* White text */
+            text-shadow: 0px 0px 10px #abed9f; /* Neon green glow */
+            text-align: left; /* Align headings to the left */
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 18px;
+            line-height: 1.6;
+            color: #fff; /* White text */
+            text-shadow: 0px 0px 10px #abed9f; /* Neon green glow */
+        }
+
+        /* Footer Styles */
+        footer {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            z-index: 100; /* Ensures the footer stays on top of other content */
+        }
+
+        .social-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .social-links a {
+            display: inline-block;
+        }
+
+        .social-icon {
+            width: 50px; /* Adjust icon size */
+            height: 50px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .social-icon:hover {
+            transform: scale(1.2);
+            box-shadow: 0px 0px 15px 5px #abed9f; /* Glow effect */
+        }
+
+    </style>
+</head>
+<body>  
+    <header>
+        <div class="logo">MEDIA FOR CHRIST</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="image-container">
+            <img src="pics.jpg" alt="Placeholder Image">
+        </div>
+        <div class="content-container">
+            <h1>Welcome! I'm Mark!</h1>
+        </div>
+
+        <div class="social-links">
+            <a href="https://www.facebook.com/felixarvidulfkjellberg.01/" target="_blank">
+                <img src="fb-removebg-preview.png" alt="Facebook" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com/mrknthnylsnt?fbclid=IwY2xjawGwZttleHRuA2FlbQIxMAABHR1K7s4j1v-Ec5Ad_Cy-3zxXU6SmXMdrt0c5vf8Jz150F0CRVHPH-dqfVg_aem_bVewPauz-LIB84fOg_Dfpw" target="_blank">
+                <img src="download-removebg-preview.png" alt="Instagram" class="social-icon">
+            </a>
+        </div>
+    </main>
+    
+</body>
+</html>
